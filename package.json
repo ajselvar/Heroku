@@ -1,0 +1,19 @@
+{
+  "name": "damn-you",
+  "version": "1.0.0",
+  "description": "Damns you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajselvar/Heroku.git"
+  },
+  "author": "Ajay S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajselvar/Heroku/issues"
+  },
+  "homepage": "https://github.com/ajselvar/Heroku#readme"
+}
