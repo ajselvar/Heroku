@@ -14,15 +14,11 @@ app.get('/', function(req, res) {
 
 app.post('/hello', function(req, res, next) {
     var username = req.body.user_name;
-    // var swag = [
-    //     "Shut up asshole",
-    //     "Get the fuck out",
-    //     "Stop whining bitch"
-    // ]
-
     var swag = [
-        "Bello bello bello",
-    ]
+        "Shut up asshole",
+        "Get the fuck out",
+        "Stop whining bitch"
+    ];
 
     var msg =  swag[Math.floor(Math.random() * swag.length)];
     var botPayload = {
@@ -30,7 +26,7 @@ app.post('/hello', function(req, res, next) {
 
     };
 
-    if(username === 'ajselvar'){
+    if(username === 'ericcox'){
         return res.status(200).json(botPayload);
     } else {
         return res.status(200).end();
