@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/ajselvar/Heroku#readme",
   "dependencies": {
-    "express": "^4.x.x",
+    "aws-sdk": "2.22.0",
+    "aws4": "^1.6.0",
     "body-parser": "^1.x.x",
+    "express": "^4.x.x",
     "request": "2.56.x"
   }
 }
